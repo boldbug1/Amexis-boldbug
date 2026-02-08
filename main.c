@@ -8,6 +8,7 @@ int main()
     printf("Do you want to know my name ?\n ");
     printf("user : ");
     scanf(" %c", &chs);
+    getchar();
 
     if (chs == 'y')
     {
@@ -17,14 +18,14 @@ int main()
     }
     else
     {
-        printf("Ok , i wont force you.....(Press Enter to continue)");
+        printf("Ok , i wont force you.....\n(Press Enter to continue)");
         getchar();
-        printf("You know what , fk you\n");
+        printf("You know what , fk you\n(Press Enter to continue)");
+        getchar();
         for (int i = 0; i < count; i++)
         {
             printf("Amexis\n");
         }
-        return 0;
 
         printf("Btw your IP : 192.19.12.198\n(Press Enter to continue)");
         getchar();
