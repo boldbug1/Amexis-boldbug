@@ -5,7 +5,7 @@ int main()
 {
     int count = 100;
     char chs;
-    printf("Do you want to know my name ?\n ");
+    printf("Do you want to know my name ?(y/n)\n ");
     printf("user : ");
     scanf(" %c", &chs);
     getchar();
